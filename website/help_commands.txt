@@ -1,0 +1,23 @@
+To create django project:
+	django-admin startproject <Project Name>
+
+To start local server on machine:
+	python manage.py runserver
+
+To create an app:
+	python manage.py startapp <App Name>
+
+To make table for installed apps or apply migrations:
+	python manage.py migrate
+
+To make migration for an app:
+	python manage.py makemigrations <App Name>
+
+To see the sql code
+	python manage.py sqlmigrate <App Name> <id>
+
+To tinker with the database
+	python manage.py shell
+
+To create a superuser
+	python manage.py createsuperuser
